@@ -1,0 +1,29 @@
+{
+  "name": "javascriptvecka",
+  "version": "1.0.0",
+  "description": "Vad häftigt!",
+  "main": "code.js",
+  "scripts": {
+    "styles": "lessc styles.less distribution/styles.css",
+    "copyindex": "cp index.html distribution/index.html",
+    "bundle": "webpack"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "x"
+  },
+  "keywords": [
+    "övning",
+    "javascript"
+  ],
+  "author": "simona",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.3",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
