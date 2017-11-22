@@ -3,7 +3,7 @@ import * as $ from "jquery";
 
 
 function renderMovie(movie){
-    document.getElementById("poster").src = movie.img;
+    document.getElementById("poster").setAttribute("src",movie.img); //istället av .innerHTML stod .src
     document.getElementById("title").innerText = movie.title;
     document.getElementById("text").innerText = movie.text;
     
