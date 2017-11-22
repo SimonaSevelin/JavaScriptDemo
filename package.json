@@ -4,14 +4,15 @@
   "description": "Vad häftigt!",
   "main": "code.js",
   "scripts": {
-    "styles": "lessc styles.less distribution/styles.css",
+    "less": "lessc ./styles.less distribution/styles.css",
     "copyindex": "cp index.html distribution/index.html",
-    "bundle": "webpack"
+    "bundle": "webpack",
+    "build": "npm run bundle && npm run less && npm run copyindex"
    
   },
   "repository": {
     "type": "git",
-    "url": "x"
+    "url": "https://github.com/SimonaSevelin/JavaScriptDemo.git"
   },
   "keywords": [
     "övning",
